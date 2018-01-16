@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-
+	<link rel="stylesheet" href="css/main.css">
 	<title>CBMI Calculator</title>
 </head>
 <body>
@@ -16,8 +16,12 @@
     <label for="limnumber">LIM</label>
     <input type="text" id="limname" name="limname" placeholder="LIM for your Cat....">
   
-    <input type="submit" value="Submit">
+    <button type="submit" onclick="calculate()">Submit</button>
+
+    <p id="result"></p>
+
 </div>
 
+<script src="js/index.js"></script>
 </body>
 </html>
