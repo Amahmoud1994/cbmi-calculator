@@ -9,19 +9,21 @@
 	<h1>Cat Body Mass Calculator</h1>
 
 	<div>
+	<form>
 	    <label for="came">Name of the Cat</label>
 	    <input type="text" id="cname" name="catname" placeholder="Cat's Name...">
 
 	    <label for="cocnumber">Circumfence of the Chest</label>
-	    <input type="text" id="cocname" name="cocname" placeholder="CoC for your Cat....">
+	    <input type="text" id="cocname" name="cocname" placeholder="CoC for your Cat...." required>
 
-	    <label for="limnumber">LIM</label>
-	    <input type="text" id="limname" name="limname" placeholder="LIM for your Cat....">
+	    <label for="limnumber">Length of the Leg</label>
+	    <input type="text" id="limname" name="limname" placeholder="Length of the Leg for your Cat...." 
+	    required>
 	  
-	    <button type="submit" onclick="calculate()">Submit</button>
+	    <button type="submit" onclick="calculate()" id="submit">Submit</button>
 
 	    <p id="result"></p>
-
+	</form>
 	</div>
 
 	<script src="js/index.js"></script>
