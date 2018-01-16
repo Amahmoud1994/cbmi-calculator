@@ -35,3 +35,8 @@ div {
 h1{
     padding: 20px;
 }
+
+.container img {
+    visibility: hidden;
+    width: 10%;
+}
